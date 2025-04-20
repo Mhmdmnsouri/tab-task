@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# panel-iran-mosighi
+
+# tab-task
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -30,4 +30,3 @@ npm run build
 ```
 =======
 # tab-task
->>>>>>> 8a9988ff681389d3d799ae4b5282738c7ea7a8a2
