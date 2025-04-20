@@ -1,11 +1,11 @@
 <template>
-    <div class="min-h-[calc(100vh-10vh)] flex items-center justify-center px-4">
+    <div class="min-h-[calc(100vh-10vh)] py-8 sm:py-0 flex items-center justify-center px-4">
         <section class="w-full max-w-4xl flex flex-col gap-12">
-            <h1 class="text-5xl font-bold text-center">آفرهای اسپانسرینگ</h1>
+            <h1 class="md:text-5xl text-3xl font-bold text-center">آفرهای اسپانسرینگ</h1>
 
             <!-- تب‌ها -->
             <div class="flex justify-center">
-                <div class="flex rounded-full overflow-hidden p-1 bg-white w-2/6">
+                <div class="flex rounded-full overflow-hidden p-1 bg-white w-2/3 sm:w-2/6">
                     <button class="w-1/2 py-4 text-center cursor-pointer rounded-full"
                         :class="selectedTab === 'direct' ? activeClass : inactiveClass" @click="selectedTab = 'direct'">
                         مستقیم
